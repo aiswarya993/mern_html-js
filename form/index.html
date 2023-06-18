@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <input type="text" id="name" />
+      <input type="text" id="mail" />
+      <button id="end" onclick="submtfn()">submit</button>
+      <div class="alert" id="alert"></div>
+    
+
+      <div id="user"></div>
+    </div>
+  </body>
+  <script>
+    let users = [];
+    function submtfn() {
+      let name = document.getElementById("name");
+
+      let mail = document.getElementById("mail");
+      let userer = users.filter((usr) => usr.mail == mail.value);
+      if (userer.length > 0) {
+        fil();
+      } else {
+        let userTemp = { name: name.value, mail: mail.value };
+        users.push(userTemp);
+
+        renderfn(userTemp);
+        console.log(user);
+        mail.value = "";
+        name.value = "";
+        success();
+      }
+    }
+    function fil() {
+      let alertfl = document.getElementById("alert");
+      alertfl.classList.add("fil");
+      alertfl.innerHTML = "failedd";
+      setTimeout(() => {
+        alertfl.classList.remove("fil");
+        alertfl.innerHTML = "";
+      }, 3000);
+    }
+    function success() {
+      let alert = document.getElementById("alert");
+      alert.classList.add("success");
+      alert.innerHTML = "success";
+      setTimeout(() => {
+        alert.classList.remove("success");
+        alert.innerHTML = "";
+      }, 3000);
+    }
+    function renderfn(userTemp) {
+      let usrdiv = document.getElementById("user");
+      usrdiv.innerHTML = "";
+      users?.map((itm) => {
+        let div = document.createElement("div");
+        let nameel = document.createElement("p");
+        let mailel = document.createElement("p");
+        div.classList.add("usr");
+        nameel.innerText = itm.name;
+        mailel.innerText = itm.mail;
+        usrdiv.appendChild(div);
+        div.appendChild(nameel);
+
+        div.appendChild(mailel);
+      });
+    }
+  </script>
+</html>

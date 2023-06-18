@@ -1,0 +1,15 @@
+.flexbox {
+  width: 800px;
+  background-color: blueviolet;
+  height: 500px;
+  border-radius: 12px;display: flex;justify-content:space-around;align-items: stretch;
+  margin: 12px auto;
+}
+.card {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  border-radius: 12px;
+  border: 1px solid wheat;
+  margin: 20px;
+}

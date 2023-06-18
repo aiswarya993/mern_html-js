@@ -1,0 +1,78 @@
+.nav-sep {
+    border-right: 1px solid gray;
+}
+
+.hero {
+    background-image: url('../images/0530-CTFO-951-CM-GradSummerMoment-hero.webp');
+    height: 600px;
+    background-size: cover;
+
+
+}
+.nav-link{
+    transition: 200ms ;
+}
+
+.content {
+    padding: 180px 0 0 80px;
+    color: white;
+    font-weight: 700;
+    width: 600px;
+}
+
+.img-header {
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(235, 113, 0);
+    padding: 12px 23px;
+    color: aliceblue;
+    border-radius: 6px 0 0 6px;
+}
+
+.side-hero1 {
+    background-image: url('../images/panel-careers.webp');
+    background-size: cover;
+    height: 600px;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.side-hero2 {
+    background-image: url('../images/panel-life.webp');
+    background-size: cover;
+    height: 600px;
+    padding-top: 140px;
+    text-align: center;
+}
+
+input {
+    width: 520px;
+    border-radius: 12px;
+    padding: 12px;
+    border: 2px solid rgb(235, 113, 0);
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(230, 158, 91);
+}
+
+.srbtn {
+    margin-left: -90px;
+}
+.searchcont{
+    display: flex;justify-content: center;
+}.atag{
+    display: flex;flex-direction: column;
+}
+a{
+    text-decoration: none;color: black;
+}
+a:hover{
+    text-decoration: underline;
+}

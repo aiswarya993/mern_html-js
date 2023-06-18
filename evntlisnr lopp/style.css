@@ -1,0 +1,15 @@
+.container {
+    width: 500px;
+    border: 2px solid red;
+    border-radius: 12px;
+    background-color: bisque;margin: 40px auto;
+    padding: 12px;
+}
+
+button {
+    padding: 12px 23px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 12px;
+    margin: 4px;
+}

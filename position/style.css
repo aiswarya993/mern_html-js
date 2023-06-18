@@ -1,0 +1,70 @@
+.card {
+
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 16px;
+  padding: 20px;
+  position: relative;
+  font-family: roboto;
+}
+.cardImg {
+  border-radius: 12px;position: relative;
+}
+.lab{
+position: absolute;top:0;background-color: antiquewhite;border-radius: 6px;margin: 10px;
+}
+
+img {
+  width: 100%;
+}
+.btn {
+  padding: 12px 24px;
+  color: beige;
+  background-color: black;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 0;
+  margin: 10px;
+  right: 0;
+}
+.ad {
+  width: 100%;
+  border: 1px solid black;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 16px;
+  position: sticky;
+  top: 0;
+  font-family: roboto;
+}
+.rel {
+  width: 500px;
+  position: relative;
+
+  background-color: blueviolet;
+  border-radius: 16px;
+
+  height: 500px;
+}
+.abs {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  position: absolute;
+  top: 0;
+margin: 10px;
+}
+.like {
+  position: absolute;margin: 10px;
+  bottom:  0;border-radius: 16px;
+  background-color: bisque;
+}
+.hero{
+  width: 500px;margin: 30px auto;position: relative;
+}
+.heroimg{
+ width: 100%;
+}
+.herocontnt{
+position: absolute;top: 0;color: bisque;text-align: center;
+}

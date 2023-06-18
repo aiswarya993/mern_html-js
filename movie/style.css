@@ -1,0 +1,89 @@
+body {
+    background-color: #3a3b3c
+}
+
+input {
+    padding: 12px;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    width: 500px;
+    border-radius: 12px 0 0 12px;
+    border: 1px solid rgb(207, 124, 29);
+}
+
+.srch-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.errr{
+    text-align: center;color: #db9834;font-size: 14px;
+}
+.disp{
+    visibility: hidden;
+}
+button {
+    padding: 12px;
+    background-color: chocolate;
+    color: bisque;
+    border-radius: 0 12px 12px 0;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(207, 124, 29);
+}
+
+.intro {
+    color: rgb(165, 110, 39);
+    margin: 0px auto;
+    text-align: center;
+    width: 600px;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #FF8008 0%, #FFC837 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #db9834;
+    /* Blue */
+    border-radius: 50%;
+    margin: 70px auto;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.heroimg {
+    height: 300px;
+    border-radius: 12px;
+}
+
+.content {
+    width: 400px;
+}
+
+.moviecontainer {
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    margin: 26px auto;
+    color: #db9834;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

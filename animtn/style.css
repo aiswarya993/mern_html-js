@@ -1,0 +1,58 @@
+.mag {
+  animation-name: magic;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes magic {
+  20% {
+    color: chartreuse;
+  }
+  40% {
+    color: blue;
+  }
+  60% {
+    color: chocolate;
+  }
+  80% {
+    color: crimson;
+  }
+  100% {
+    color: blueviolet;
+  }
+}
+.card img {
+  width: 900px;
+  height: 300px;
+  object-fit: cover;
+}
+.hero {
+  height: 400px;
+  width: 600px;
+  background-image: url("../photo-1682686581427-7c80ab60e3f3.avif");
+  background-size: cover;
+}
+.content {
+  padding: 60px 123px;
+  text-align: center;
+  color: azure;
+  height: 400px;
+  overflow: auto;
+  border: 2px solid red;
+}
+p {
+  
+  color: black;
+}
+.container {
+  height: 600px;
+}
+.hero :hover{
+  animation: ani 2s 1s infinite forwards ;
+}
+@keyframes ani{
+  100%{
+    transform: rotate(34deg);
+  }
+}

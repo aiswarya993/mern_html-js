@@ -1,0 +1,46 @@
+.container {
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid lightgrey;
+    background-color: cornsilk;
+    display: flex;gap: 12px;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: inline-block;
+    background-color: beige;
+    width: 400px;
+}
+
+.card p {
+    margin: 10px;
+    width: fit-content;
+    background-color: black;
+    color: azure;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.btn {
+    border: none;
+    background-color: black;
+    color: azure;
+    padding: 12px 23px;
+    margin: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 12px;
+    margin: 12px;
+    border-radius: 12px;
+}

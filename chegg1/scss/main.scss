@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+$font-family-sans-serif: 'poppins';
+
+$theme-colors: (
+  "primary": rgb(235, 113, 0),
+
+  "success": yellow,
+  "info": blue,
+  "warning": red,
+  "danger": blue,
+  "light": gray,
+  "dark": black
+);
+$card-border-radius: 12px;
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.nav-link:hover {
+  border-bottom: 5px solid rgb(235, 113, 0) !important;
+}
